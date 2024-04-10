@@ -1,0 +1,12 @@
+site_name: Ciência de Dados Geográficos
+
+docs_dir: src
+
+site_dir: docs
+
+theme:
+  name: material
+
+plugins:
+    - mkdocs-jupyter:
+          include: ["*.ipynb"] # Default: ["*.py", "*.ipynb"]

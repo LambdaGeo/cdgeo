@@ -6,6 +6,11 @@
     python3 -m venv .venv
     source .venv/bin/activate
   ```
+
+mkdocs
+mkdocs-jupyter
+
+
 - Install dependencies
 
   `pip install -r requirements.txt`
