@@ -824,7 +824,7 @@ Para conseguir demonstrar como a habilidade de escrever scripts pode te tornar m
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
 <clipboard-copy for="cell-1">
@@ -1026,6 +1026,209 @@ print (df.População.sum())</div>
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedImage jp-OutputArea-output" tabindex="0">
 <img alt="No description has been provided for this image" class="" src="data:image/png;base64,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P/+WPmEZYVFMx48fV7169Tj5kpvo1q2b1q5de8ufc9+dHT9+XA6HQw0bNtSOHTtcjuv7+PioevXqLuGHspedna2vvvpKd911F3vyykifPn3UtWtXTZgwQZK0d+9ehYeHa9iwYWratKneeOMNjRw5UtOmTbN20FLERciKaf/+/S4nmFmwYIHCwsL01FNPFfm8Mkrf119/7RIVBQUFSk5O5r0oQ/Xr11edOnU0dOhQVatWTfXr13featWqRVRY4IknntDbb78tSfr111/Vtm1bPfHEE2rZsqU++ugji6fzDMnJyerevbvz/ooVK9ShQwctXrxYERERmjdvnlatWmXhhKWPsCiml19+2Xmp27179yoiIkJ9+/ZVamqqc+EUys7YsWP17rvvSroSFffdd5/Cw8MVEhKiLVu2WDucB6lYsaI+/vhjq8fA/yc+Pl5dunSRJH388cdyOBw6d+6c5s2bx8USy8jZs2dVo0YN5/24uDj16dPHeb9du3ZKT0+3YrQyQ1gUU2pqqpo1aybpyiXU+/Xrp1mzZmnBggX67LPPLJ7O86xevVqtW7eWJH3yySc6duyYDhw4oHHjxmnSpEkWT+dZ+vfvr3Xr1lk9BiRlZWU514HFxsZq4MCB8vPz00MPPaTDhw9bPJ1nqFGjhnPhZn5+vnbt2qWOHTs6Hz9//rwqVqxo1Xhlgk+FFJOPj48uXLggSfryyy81ZMgQSVLVqlWdezJQds6cOaOaNWtKkjZu3KjHH39cTZo0cZ7IDGWncePGmjFjhhISEnT33XercuXKLo+/+OKLFk3meUJCQpSYmKiqVasqNjZWK1askHTlr2hP+DSCO+jbt68mTpyo2bNna926dfLz83PuRZKufJrqjjvusHDC0kdYFNO9996riIgIde7cWTt27NDKlSslSYcOHVLdunUtns7z1KhRQ/v27VOtWrUUGxurhQsXSrpy5keO7Zetd999V0FBQUpKSipymmKbzUZYlKGxY8dq8ODB8vf3V7169ZwXwoqPj+dU92Xk1Vdf1aOPPqr7779f/v7+iomJcfn479KlS/Xggw9aOGHp41MhxZSWlqa//OUvSk9P14svvui8BsK4ceNUUFDgPL8Cysa0adP01ltvqVatWrpw4YIOHToku92upUuXavHixUpMTLR6RMASO3fuVHp6unr27Ok8z8uGDRsUFBSkzp07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PPnkkw6Hw+GYMGGCo0WLFi6PT5o0ySHJcfbsWYfD4XC89957jsDAwOvO0bx5c8f8+fMdDofDcejQIYckR0JCgvPxX375xeHr6+tYtWrVH/yJAZQVb4u7BoBFunXrpoULFyo3N1dvvvmmvL29NXDgQP3www+6cOGCevbs6fL8/Px8tWnTRpJ08OBBtWvXzuXx9u3bX/f1cnJyNG3aNG3YsEEZGRm6fPmyfv31V+cei/3798vb21sdOnRwfk21atV05513av/+/SZ+ZABlgLAAPFTlypXVqFEjSdLSpUvVunVrvfvuu2rRooUkacOGDapTp47L19jt9pt+vfHjx+uLL77Q3//+dzVq1Ei+vr567LHHlJ+ff/M/BAC3Q1gAkJeXl/77v/9bEREROnTokOx2u9LS0nT//fdf9fl33nmnNm7c6LLtu+++u+5rJCQkaNiwYXrkkUckXdmDcezYMefjTZs21eXLl7V9+3bdc889kqQzZ87o4MGDatas2R/46QCUJRZvApAkPf7446pQoYLeeecdjR8/XuPGjVNMTIyOHj2qXbt2af78+YqJiZEkjRw5UgcOHNCECRN06NAhrVq1SsuWLZMk2Wy2q37/xo0ba+3atUpOTlZKSoqeeuopFRYWujzev39/Pffcc9q6datSUlL09NNPq06dOurfv3+p//wAzCAsAEiSvL29NWbMGL3++uuKjIzU5MmTFRUVpaZNm6p3797asGGDQkNDJUmhoaFas2aN1q5dq1atWmnhwoXOT4Vc63DJnDlzFBwcrHvuuUf9+vVTr169FB4e7vKc9957T3fffbcefvhhderUSQ6HQxs3blTFihVL94cHYAwnyAJgxGuvvaZFixYpPT3d6lEAWIg1FgBuyj//+U+1a9dO1apVU0JCgt544w2NGTPG6rEAWIywAHBTDh8+rJkzZyozM1P16tXTSy+9pMjISKvHAmAxDoUAAABjWLwJAACMISwAAIAxhAUAADCGsAAAAMYQFgAAwBjCAgAAGENYAAAAYwgLAABgzP8D/9YONZ3qnegAAAAASUVORK5CYII="/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>A seguir apresentamos em alto nível os passos para calcular o percentual do PIB por estado, e como poderíamos escrever esses passos usando a linguagem de programação Python e a biblioteca Pandas. Não se preocupem em entender em detalhes os códigos, foquem apenas no conceito de algoritmo. E observem que podemos realizar todos os passos com poucas linhas de código.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>Passo 1</strong>: Coletar os dados de entrada:</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="CodeMirror cm-s-jupyter">
+<div class="zeroclipboard-container">
+<clipboard-copy for="cell-5">
+<div>
+<span class="notice" hidden="">Copied!</span>
+<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
+<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+</clipboard-copy>
+</div>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="s1">'https://drive.google.com/uc?id=1hw-SPd8EMBgsqXUKu3FpOhWe4NANgu30'</span><span class="p">)</span>
+</pre></div>
+<div class="clipboard-copy-txt" id="cell-5">df = pd.read_excel('https://drive.google.com/uc?id=1hw-SPd8EMBgsqXUKu3FpOhWe4NANgu30')</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>Passo 2</strong>: Calcular o PIB total</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="CodeMirror cm-s-jupyter">
+<div class="zeroclipboard-container">
+<clipboard-copy for="cell-6">
+<div>
+<span class="notice" hidden="">Copied!</span>
+<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
+<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+</clipboard-copy>
+</div>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">pib_total</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">'PIB'</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+</pre></div>
+<div class="clipboard-copy-txt" id="cell-6">pib_total = df['PIB'].sum()</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>Passo 3</strong>: Calcular o percentual do PIB para cada estado</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="CodeMirror cm-s-jupyter">
+<div class="zeroclipboard-container">
+<clipboard-copy for="cell-7">
+<div>
+<span class="notice" hidden="">Copied!</span>
+<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
+<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+</clipboard-copy>
+</div>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">'PIB Percentual'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">'PIB'</span><span class="p">]</span><span class="o">/</span><span class="n">pib_total</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span>
+</pre></div>
+<div class="clipboard-copy-txt" id="cell-7">df['PIB Percentual'] = (df['PIB']/pib_total)*100</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>Passo 4</strong>: Retornar os percentuais.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="CodeMirror cm-s-jupyter">
+<div class="zeroclipboard-container">
+<clipboard-copy for="cell-8">
+<div>
+<span class="notice" hidden="">Copied!</span>
+<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
+<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+</clipboard-copy>
+</div>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s2">"Estado"</span><span class="p">)[</span><span class="s1">'PIB Percentual'</span><span class="p">]</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+<div class="clipboard-copy-txt" id="cell-8">df.set_index("Estado")['PIB Percentual'].sort_values(ascending=False)</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>Estado
+São Paulo              30.178734
+Rio de Janeiro         10.533576
+Minas Gerais            9.515971
+Rio Grande do Sul       6.450008
+Paraná                  6.102577
+Santa Catarina          4.755483
+Bahia                   3.912698
+Distrito Federal        3.183970
+Goiás                   2.991830
+Pará                    2.917230
+Mato Grosso             2.589728
+Pernambuco              2.450183
+Ceará                   2.162471
+Espírito Santo          2.067621
+Mato Grosso do Sul      1.577915
+Amazonas                1.459486
+Maranhão                1.386807
+Rio Grande do Norte     0.889699
+Paraíba                 0.859618
+Alagoas                 0.846258
+Piauí                   0.710464
+Rondônia                0.645462
+Sergipe                 0.575457
+Tocantins               0.574569
+Acre                    0.237169
+Amapá                   0.223032
+Roraima                 0.201983
+Name: PIB Percentual, dtype: float64</pre>
 </div>
 </div>
 </div>
