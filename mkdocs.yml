@@ -16,11 +16,11 @@ theme:
   name: material  # Exemplo usando o tema Material for MkDocs
 nav:
   - Introdução: index.md
-  - Parte 1:
+  - Parte 1 - Introdução a Python:
       
       - Capítulo 1: capitulo1.ipynb
       - Capítulo 2: capitulo2.ipynb
       - Capítulo 3: capitulo3.ipynb
-  - Parte 2:
+  - Parte 2 - Tipos de Dados Geográficos:
       - Capítulo 4: capitulo4.ipynb
     
