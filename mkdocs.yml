@@ -1,4 +1,4 @@
-site_name: Ciência de Dados com Python
+site_name: Ciência de Dados Geográficos
 
 docs_dir: src
 
@@ -10,3 +10,17 @@ theme:
 plugins:
     - mkdocs-jupyter:
           include: ["*.ipynb"] # Default: ["*.py", "*.ipynb"]
+
+
+theme:
+  name: material  # Exemplo usando o tema Material for MkDocs
+nav:
+  - Introdução: index.md
+  - Parte 1:
+      
+      - Capítulo 1: capitulo1.ipynb
+      - Capítulo 2: capitulo2.ipynb
+      - Capítulo 3: capitulo3.ipynb
+  - Parte 2:
+      - Capítulo 4: capitulo4.ipynb
+    
