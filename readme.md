@@ -20,3 +20,8 @@ mkdocs-jupyter
   `jupyter notebook`
 
 - Modify your notebooks and push. A workflow will take care of publish them at this repository pages.
+
+
+incluir formulas matemtica
+
+https://squidfunk.github.io/mkdocs-material/reference/math/#mathjax-mkdocsyml

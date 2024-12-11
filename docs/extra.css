@@ -1,0 +1,4 @@
+/* Justifica apenas o corpo do texto (parágrafos) */
+.md-content p {
+    text-align: justify;
+}
