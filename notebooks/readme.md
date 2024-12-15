@@ -1,1 +1,0 @@
-codigos para testar as funcionalides, sem ser os capitulos de livro
